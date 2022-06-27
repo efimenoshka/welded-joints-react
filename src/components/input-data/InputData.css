@@ -1,0 +1,14 @@
+p{
+    font-size: 18px;
+}
+
+.bold-text{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.calc-button{
+    margin-left: 78px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}

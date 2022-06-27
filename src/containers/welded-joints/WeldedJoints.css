@@ -1,0 +1,18 @@
+.welded-joints-container {
+    overflow-y: auto;
+    height: 92vh;
+    scroll-snap-type: y mandatory;
+    scrollbar-color: black, green;
+    margin-top: 7px;
+    padding: 0;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00101fea;
+    border-radius: 10px;
+}

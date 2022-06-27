@@ -1,0 +1,17 @@
+.model {
+    border: 1px solid black;
+    border-radius: 7px;
+    height: 50vh;
+    width: 50vw;
+}
+
+.buttons-container {
+    margin: auto;
+    width: 100%;
+}
+
+
+.my-button {
+    margin: 5px;
+    width: 100%;
+}

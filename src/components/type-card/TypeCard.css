@@ -1,0 +1,22 @@
+.TypeCard{
+    display: inline-block;
+    margin: 1.5% 0 1.5% 10%;
+    width: 33%;
+    border-color: black;
+    justify-content: center;
+    text-align: center;
+}
+
+.Img {
+    height: 270px;
+    width: 360px;
+    margin: auto 0;
+}
+
+.textCenter {
+    text-align: center;
+}
+
+.btn {
+    margin-right: 10px;
+}

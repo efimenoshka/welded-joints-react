@@ -1,0 +1,51 @@
+db.allWeldedJoints.insertOne({
+    id: 1,
+    type: "Стыковое",
+    name: "С28",
+    edgeShape: "С отбортовкой кромок",
+    character: "Односторонний",
+    widthMax: "1",
+    widthMin: "12",
+    size: [{
+        s: "От 1 до 2",
+        R: "От s до 2s",
+        e: "3s+2",
+        gNomin: "0",
+        gOtkl: "+1"        
+    }, {
+        s: "Св. 2 до 6",
+        R: "От s до 2s",
+        e: "2s+3",
+        gNomin: "0",
+        gOtkl: "+1"
+    }, {
+        s: "Св. 6 до 9",
+        R: "От s до 2s",
+        e: "2s+3",
+        gNomin: "0",
+        gOtkl: "+2"
+    }, {
+        s: "Св. 9 до 12",
+        R: "От s до 2s",
+        e: "2s+4",
+        gNomin: "0",
+        gOtkl: "+3"
+    }],
+    drawing: "https://2.downloader.disk.yandex.ru/preview/398cda59733a411746e6dcf7249bfc648dde81e97f67c705e47f823fb71d15cb/inf/uTo6A8qriS3xQdAtZ-bTQ6fD1zyyKjn6ViQfZY-2tvi5r4IZA9nuFmN2KLYKn4dG8E6NdVJQmanvjndtmaCxag%3D%3D?uid=675240116&filename=%D0%A128.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=675240116&tknv=v2&size=1903x937",
+    picture: "https://4.downloader.disk.yandex.ru/preview/6ee2af9cea01637962dab6825599651e14c124dd0b137aafc4bea2a3152e9b71/inf/uz2aGeVpNJ32BvFhG7r6rEkzFqNsfOQnYoUnpwgitwxC_BeijJYVqcX5DXSutXEBn2vLE_kUmPtywLZGJ2d_Bg%3D%3D?uid=675240116&filename=%D0%A128.JPG&disposition=inline&hash=&limit=0&content_type=image%2Fjpeg&owner_uid=675240116&tknv=v2&size=1920x937"
+})
+
+db.edgeShape.insertMany([
+    {name: "С криволинейным скосом одной кромки"},
+    {name: "С ломаным скосом одной кромки"},
+    {name: "С двумя симметричными скосами одной кромки"},
+    {name: "С двумя симметричными криволинейными скосами одной кромки"},
+    {name: "С двумя несимметричными скосами одной кромки"},
+    {name: "Со скосом кромок"},
+    {name: "Со скосом кромок с последующей строжкой"},
+    {name: "С ломаным скосом кромок"},
+    {name: "С двумя симметричными скосами кромок"},
+    {name: "С двумя симметричными криволинейными скосами кромок"},
+    {name: "С двумя симметричными ломаными скосами кромок"},
+    {name: "С двумя несимметричными скосами кромок"}
+])

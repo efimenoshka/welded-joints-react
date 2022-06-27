@@ -1,0 +1,53 @@
+.electrod-table-body {
+	height: 290px;
+	overflow-x: auto;
+	margin-top: 0px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #eee;
+}
+
+.electrod-table table {
+	width:100%;
+	table-layout: fixed;
+	border: none;
+}
+
+.electrod-table thead th {
+	font-weight: bold;
+	text-align: center;
+	border: 1px solid white;
+	padding: 10px 15px;
+	background: #00101fea;
+    color: white;
+	font-size: 18px;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+}
+
+.electrod-table tbody td {
+	text-align: center;
+    border-right: 1px solid #aeabab;
+    border-bottom: none;
+	padding: 10px 15px;
+	font-size: 16px;
+}
+
+.last {
+    border-bottom: 1px solid #aeabab;
+}
+
+
+.electrod-table tbody {
+	text-align: center;
+	padding: 10px 15px;
+    border: 1px solid #aeabab;
+}
+
+.electrod-table thead th:first-child {
+    border-left: none;
+}
+
+.electrod-table thead th:last-child {
+    border-right: none;
+}
+

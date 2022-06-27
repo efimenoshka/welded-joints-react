@@ -1,0 +1,52 @@
+.welding {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.welding p {
+    font-size: 24px;
+    text-indent: 30px;
+    margin-top: 5px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.welding h3 {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.welding .img-welded{
+    text-align: center;
+    margin: auto;
+}
+
+.welding img {
+    width: 100%;
+}
+
+.welding .img-weld {
+    width: 35%;
+    margin: auto;
+}
+
+.welding li {
+    font-size: 24px;
+    text-indent: 30px;
+    list-style-type: none;
+}
+
+.welding li:nth-child(1)::before { content: 'а) '; }
+.welding li:nth-child(2)::before { content: 'б) '; }
+.welding li:nth-child(3)::before { content: 'в) '; }
+.welding li:nth-child(4)::before { content: 'г) '; }
+.welding li:nth-child(5)::before { content: 'д) '; }
+.welding li:nth-child(6)::before { content: 'е) '; }
+.welding li:nth-child(7)::before { content: 'ё) '; }
+
+.welding ol {
+    margin-top: 15px;
+
+}
+
